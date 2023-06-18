@@ -69,7 +69,6 @@ public class DriverFactory {
 
     public static void cleanUpDriver() {
 
-
         webDriver.get().quit();
         webDriver.remove();
     }
